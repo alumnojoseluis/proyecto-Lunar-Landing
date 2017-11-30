@@ -1,0 +1,46 @@
+body, html{
+	height:100%;padding:0px;margin:0px;
+	background-image: url("../img/fondo.png");
+	font-family: verdana;
+	color: white;
+}
+
+.a,.b,.c{
+	display:inline-block;
+	width:33.33%;
+	height:100%;
+	float:left;
+}
+
+.d{
+	height:30%;
+	width:100%;
+	position:fixed;
+	bottom:0px;
+}
+
+#nave{text-align:center;position:fixed;top:5%;width:100%;height:20%}
+#nave img{height:100%;}
+
+#panelcontrol{}
+
+#menu{}
+
+#luna {
+	height: 100%;
+	width: 100%;
+	text-align:center;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 14px 8px;
+    cursor: pointer;
+}
